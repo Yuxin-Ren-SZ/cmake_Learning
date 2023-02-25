@@ -87,6 +87,7 @@ Mkfile.old
 dkms.conf
 
 ### CMake template
+#cmake-build-debug
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
