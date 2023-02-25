@@ -17,7 +17,7 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # TODO 3: Add an executable called Tutorial to the project
 # Hint: Be sure to specify the source file as tutorial.cxx
-add_executable(Tutorial tutorial.cxx)
+add_executable(Tutorial tutorial.cxx ../Step2/MathFunctions/mysqrt.cxx ../Step2/tutorial.cxx ../Step2/TutorialConfig.h.in)
 
 # TODO 9: Use target_include_directories to include ${PROJECT_BINARY_DIR}
 target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}")
